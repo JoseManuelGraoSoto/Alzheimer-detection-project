@@ -1,0 +1,10 @@
+Classification Report
+              precision    recall  f1-score   support
+
+          CN       0.56      0.58      0.57        26
+         MCI       0.32      0.26      0.29        23
+          AD       0.50      0.57      0.53        23
+
+    accuracy                           0.47        72
+   macro avg       0.46      0.47      0.46        72
+weighted avg       0.46      0.47      0.47        72
