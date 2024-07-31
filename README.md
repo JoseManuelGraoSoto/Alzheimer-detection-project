@@ -30,22 +30,3 @@ Applied Preprocessing Techniques
 In the context of medical imaging, registration and normalization are crucial processes for standardizing images acquired through different means. By adjusting intensity values, data consistency improves, leading to better model learning. The Min-Max technique was used, rescaling intensity values to be between 0 and 1.
 
 Segmentation techniques were applied to extract the most relevant tissues from the original NiFTI image for Alzheimer's disease detection. Attempts were made to extract gray matter, white matter, and cerebrospinal fluid. Otsu's thresholding was applied to calculate the optimal threshold value using the method developed by Nobuyuki Otsu in 1979, which automatically selects the optimal value to separate the desired pixels.
-Methodology
-
-    Neural Network Architecture:
-        The neural network architecture was designed to handle 3D images effectively. (Provide details of the architecture if possible.)
-
-    Training:
-        The model was trained using the processed and augmented dataset.
-        Regularization techniques were applied to prevent overfitting.
-
-    Validation:
-        The validation set was used to tune hyperparameters and evaluate the model's performance during training.
-
-    Testing:
-        The final evaluation was conducted on the test set to measure the model's accuracy, precision, recall, and other relevant metrics.
-
-Results
-
-    The classifier achieved an accuracy of X% on the test set.
-    Detailed results can be found in the results section. (Include tables, graphs, or any relevant metrics.)
